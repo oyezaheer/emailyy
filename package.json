@@ -8,7 +8,7 @@
     "npm": "8.12.1"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "react-scripts --openssl-legacy-provider start",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
